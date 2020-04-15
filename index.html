@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="main_conatiner">
+
+        <h1 class="title">Black Jack</h1>
+        <h3 class="instruction"> <span id="result">Lets Play</span> </h3>
+
+        <div class="table_board">
+            <div class="player_board">
+                <h4>You: <span id="player_score"> 0</span> </h4>
+                <div class="player_container" id="player_container">
+
+                </div>
+
+            </div>
+
+            <div class="cpu_board">
+                <h4>Dealer: <span id="cpu_score"> 0</span> </h4>
+
+                <div class="cpu_container" id="cpu_container">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <br>
+        <div class="btn_div">
+            <button id="btn_hit" class="btn btn-primary">Hit</button>
+            <button id="btn_stand" class="btn btn-warning"> Stand</button>
+            <button id="btn_deal" class="btn btn-danger"> Deal</button>
+        </div>
+
+
+        <div class="result_container">
+            <table class="table">
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draw</th>
+                </tr>
+                <tr>
+                    <td id="wins">0</td>
+                    <td id="losses">0</td>
+                    <td id="drew">0</td>
+                </tr>
+
+            </table>
+        </div>
+
+    </section>
+
+    <script src="/js/home.js"></script>
+</body>
+
+</html>
